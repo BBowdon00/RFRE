@@ -20,7 +20,7 @@ We separated morse code from the rest of the signal and decoded it by tweaking a
 ## Part B: Analyzing Entire Electromagnetic Spectrum to Identify Hidden Signal Tags
 We analyzed the whole signal in Audacity by plotting the spectrum as a Power vs. Frequency graph. We noticed the signal had an unnaturally low dip around 250 Hz and deduced it must be a purposeful attribute/flag of the station. We need to replicate this dip in the message that we replay.
 
-![frequency-analysis](https://github.com/ASRL/RFRE-F19-Foxtrot/blob/P2/pictures/frequency%20analysis%20proj2.PNGhttps://github.com/ASRL/RFRE-F19-Foxtrot/blob/P2/pictures/frequency%20analysis%20proj2.PNG)
+![frequency-analysis](pictures/FilteredMinecraft.png)
 
 (Insert Picture Here)
 # Section 2: Taking over the protected, safeguarded radio station using elite h@x4r techniques
@@ -33,7 +33,7 @@ Minecraft xD
 
 Recreating signal tags in our own message:
 
-![minecraft_frequency](https://github.com/ASRL/RFRE-F19- Foxtrot/blob/P2/pictures/FilteredMinecraft.png)
+![minecraft_frequency](pictures/FilteredMinecraft.png)
 
 ## Part C: Playing Modified Message
 We used the GRC file to play the message
