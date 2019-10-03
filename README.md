@@ -16,13 +16,18 @@ Once we found the signal with QSpectrum Analyzer, we looked at that frequency in
 # Section 2: High-Tech Intricate Digital Signal Analysis using High-End Interpretation Software
 
 ## Part A: Decoding Complex Morse Code
-
+We separated morse code from the rest of the signal and decoded it by tweaking a few settings in Audacity. We made the dots and dashes very visible and used an online decoder to decode the secret message as: "Did the plan work?".
 ## Part B: Analyzing Entire Electromagnetic Spectrum to Identify Hidden Signal Tags
+We analyzed the whole signal in Audacity by plotting the spectrum as a Power vs. Frequency graph. We noticed the signal had an unnaturally low dip around 250 Hz and deduced it must be a purposeful attribute/flag of the station. We need to replicate this dip in the message that we replay.
 
+(Insert Picture Here)
 # Section 2: Taking over the protected, safeguarded radio station using elite h@x4r techniques
 
 ## Part A: Choosing a Filter
-
+In order to make our .wav file fit in with the station, we needed to apply a filter to it. The filter we selected was the Band Reject filter (a filter that "rejects" samples in a certain frequency range or "band with"). 
 ## Part B: Choosing a Message
-
+Minecraft xD
 ## Part C: Playing Modified Message
+We used the GRC file to play the message
+
+(Insert pic of GRC file)
