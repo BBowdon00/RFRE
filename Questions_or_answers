@@ -1,0 +1,21 @@
+What to ask Nick
+
+1. What should "work" output
+2. What exactly is the UDP socket for? Do we use it to connect to the server? Where do we start the server? What is the purpose of the server block in GRC?
+3. Is there any "IN" parameter? If no, can we delete it in the XML file?
+
+How exactly do we dynamically change the variables using UDP Socket, XML Server?
+
+
+      // use tag
+      // IN XML FILE where you have <make> -----
+      // down below you will have <callback>set_icao($var) </callback> for each variable
+      // will write every method name you want used
+      // later on, when in properties
+      // id, key, default values
+      // in python code, create method that matches method name and updates
+      // maybe qt gui entry
+      // or use XML RPC server
+      // when you have the block
+      // create variable block, put default value in the block and then attach the variable box to the out of tree module
+      // 

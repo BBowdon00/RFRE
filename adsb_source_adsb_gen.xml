@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<block>
+  <name>adsb_gen</name>
+  <key>adsb_source_adsb_gen</key>
+  <category>[adsb_source]</category>
+  <import>import adsb_source</import>
+  <make>adsb_source.adsb_gen($lat, $lon, $alt, $num, $start_id)</make>
+  <param>
+    <name>lat</name>
+    <key>lat</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>lon</name>
+    <key>lon</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>alt</name>    
+    <key>alt</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>num</name>
+    <key>num</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>start_id</name>
+    <key>start_id</key>
+    <type>int</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>
