@@ -5,10 +5,10 @@
   <category>[adsb_source]</category>
   <import>import adsb_source</import>
   <make>adsb_source.adsb_gen($lat, $lon, $alt, $num, $start_id)</make>
-  <callback>setLat($lat)</callback>
-  <callback>setLon($lon)</callback>
-  <callback>setAlt($alt)</callback>
-  <callback>setNum($num)</callback>
+  <callback>set_lat($lat)</callback>
+  <callback>set_lon($lon)</callback>
+  <callback>set_alt($alt)</callback>
+  <callback>set_num($num)</callback>
   <param>
     <name>lat</name>
     <key>lat</key>
@@ -33,7 +33,7 @@
   <param>
     <name>start_id</name>
     <key>start_id</key>
-    <type>int</type>
+    <type>string</type>
   </param>
 
   <source>
