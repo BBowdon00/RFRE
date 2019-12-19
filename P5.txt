@@ -1,0 +1,6 @@
+Quick Maths 224.13 MHz
+Three Ships 161.975 MHz
+GPS 1575.42 MHz
+Citizens Radio Hong Kong 102.8 MHz
+ADSB 1090 MHz
+So Long and Thanks for all the Fish 1.21 GHz
